@@ -1,0 +1,10 @@
+9
+Fobj 9 proto_OBJ
+flags2 1 bitfield
+temperature 4 float
+pressure 8 double
+device_id 10 array char 10
+sensor_readings 16 array float 4
+DATA_length 4 int
+DATA 0 char DATA_length
+checksum 4 int

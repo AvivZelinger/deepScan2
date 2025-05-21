@@ -1,0 +1,147 @@
+/* General Layout */
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+  }
+  
+  .header {
+    margin-bottom: 24px;
+    background: linear-gradient(to right, #3b82f6, #9333ea);
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  .header h1 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Field Editor Styles */
+  .field-editor {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 12px;
+    padding: 12px;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .field-editor label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 4px;
+  }
+  
+  .field-editor input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .field-editor input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+  }
+  
+  .field-editor button {
+    margin-top: 16px;
+    padding: 8px;
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .field-editor button:hover {
+    background-color: #dc2626;
+  }
+  
+  /* File Upload */
+  .file-upload {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .file-upload input {
+    flex: 1;
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .file-upload button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .file-upload button:hover {
+    background-color: #2563eb;
+  }
+  
+  .file-upload button:disabled {
+    background-color: #9ca3af;
+    cursor: not-allowed;
+  }
+  
+  /* Output Section */
+  .output {
+    background-color: #f9fafb;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    font-size: 0.875rem;
+    color: #374151;
+    white-space: pre-wrap;
+  }
+  
+  .output-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .output-header h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .output-header button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.875rem;
+    color: #3b82f6;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .output-header button:hover {
+    color: #2563eb;
+  }

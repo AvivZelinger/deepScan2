@@ -1,0 +1,36 @@
+35
+packet_id             4    int
+sequence_number       4    int
+timestamp             8    int
+source_mac            6    char
+dest_mac              6    char
+source_ip             4    char
+dest_ip               4    char
+vlan_id               2    int
+vlan_priority         1    int
+protocol_version      2    int
+header_checksum       4    int
+flags                 1    bitfield
+reserved_bits         3    bitfield
+payload_type          1    int
+payload_length        4    int
+payload               0    char    payload_length
+num_hops              1    int
+hop_addresses         0    char    num_hops
+error_codes           12   array int 3
+sensor_count          2    int
+sensor_ids            8    array int 4
+sensor_values         32   array float 8
+altitude              8    double
+temperature           4    float
+pressure              8    double
+humidity              4    float
+battery_voltage       4    float
+device_name           20   char
+device_id             10   char
+log_count             2    int
+logs                  0    char    log_count
+signature_length      2    int
+signature             0    char    signature_length
+footer                4    char
+message_checksum      4    int

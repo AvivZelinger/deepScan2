@@ -1,0 +1,63 @@
+{
+    "protocol": "CustomProtocol",
+    "dpi": {
+        "192.168.1.2": {
+            "field1": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 10,
+                "max_value": 100,
+                "size_defining_field": null,
+                "field_type": "code"
+            },
+            "field2": {
+                "is_dynamic_array": true,
+                "min_size": 2,
+                "max_size": 10,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": "length_field",
+                "field_type": "message"
+            },
+            "field3": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 0,
+                "max_value": 1,
+                "size_defining_field": null,
+                "field_type": "information"
+            }
+        },
+        "192.168.1.3": {
+            "field1": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 5,
+                "max_value": 50,
+                "size_defining_field": null,
+                "field_type": "code"
+            },
+            "field2": {
+                "is_dynamic_array": true,
+                "min_size": 1,
+                "max_size": 8,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": "length_field",
+                "field_type": "message"
+            },
+            "field3": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 0,
+                "max_value": 1,
+                "size_defining_field": null,
+                "field_type": "information"
+            }
+        }
+    }
+}
